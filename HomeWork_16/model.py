@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship
-from HomeWork_16.utils_homework_16 import load_json
+from utils_homework_16 import load_json
 
 
 app = Flask(__name__)
